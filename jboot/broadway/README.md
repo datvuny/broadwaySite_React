@@ -112,7 +112,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Dat Vu 
 <!-- - [@twitter_handle](https://twitter.com/twitter_handle)  -->
 
-Project Link: [https://github.com/datvuny/broadway-site](https://github.com/datvuny/broadway-site)
+Project Link: [https://github.com/datvuny/broadway-site/tree/main/jboot/broadway](https://github.com/broadway-site/tree/main/jboot/broadway)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
