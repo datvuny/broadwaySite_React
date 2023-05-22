@@ -181,7 +181,7 @@ footer{
     font-size: 14px;
   }
   .v2_2 {
-    width: 95vw;
+    width: 100vw;
     height: 230px;
     background: url("../images/v2_2.png");
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@ footer{
     overflow: hidden;
   }
   .v1_3 {
-    width: 95vw;
+    width: 100vw;
     height: 230px;
     background: rgba(248,247,247,1);
     opacity: 1;
@@ -208,7 +208,7 @@ footer{
     overflow: hidden;
   }
   .v4_3 {
-    width: 92.5vw;
+    width: 98.5vw;
     height: 212px;
     background: url("../images/v4_3.png");
     background-repeat: no-repeat;
