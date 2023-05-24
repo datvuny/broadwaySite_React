@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import Section from './components/section.js'
 import Nav from './components/nav.js'
-import {sectionsData} from './components/data.js'
+import { sectionsData } from './components/data';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,33 +19,20 @@ function App() {
   });
 
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-
     <div className="App">
       <Nav/>
       <header></header>
       <div className="search-bar">
+        <div className='search-input-container'>
         <input
           type="text"
-          placeholder="Search for a Show..."
+          placeholder="Search Show Titles"
           value={searchQuery}
           onChange={handleSearchChange}
+          style={{ paddingLeft: '25px' }}
         />
+        <FontAwesomeIcon icon={faSearch} className='search-icon' style={{ color: "#ffffff" }} />
+        </div>
       </div>
 
       {filteredSections.map((section, index) => (

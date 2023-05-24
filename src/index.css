@@ -319,3 +319,36 @@ footer{
   .address-link{
     white-space: pre-line;
   }
+
+ 
+  input[type="text"] {
+    width: 90%;
+    height: 70px;
+    font-size: 35px;
+    /* line-height: 1; */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #ffbb00;
+  }
+  input {
+  color: #fff;
+  font-family: Nunito;
+  padding: 2px;
+  margin: 2px;
+  border: 2px;
+  background-color: transparent;
+}
+
+.search-input-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 6vw;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
