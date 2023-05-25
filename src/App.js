@@ -9,7 +9,7 @@ import Contact from './components/contact';
 class App extends Component {
   render() {
     return (
-       <Router  basename={process.env.PUBLIC_URL}>
+       <Router>
            <div>
            <Routes>
                  <Route exact path='/' element={< Home />}></Route>
