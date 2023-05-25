@@ -4,7 +4,7 @@ function Nav() {
     return (
       <nav className="navbar navbar-expand-lg sticky fixed-top r-nav">
         <div className="container">
-          <a href="./index.html" className="navbar-brand">
+          <a href="./" className="navbar-brand">
             BROADWAY IN THE KNOW
           </a>
           <button
@@ -20,7 +20,7 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarId">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a href="./index.html" className="nav-link">
+                <a href="./" className="nav-link">
                   Home
                 </a>
               </li>
@@ -33,12 +33,12 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="./policy.html" className="nav-link">
+                <a href="./policy" className="nav-link">
                   Privacy Policy
                 </a>
               </li>
               <li className="nav-item">
-                <a href="./contact.html" className="nav-link">
+                <a href="./contact" className="nav-link">
                   Contact
                 </a>
               </li>

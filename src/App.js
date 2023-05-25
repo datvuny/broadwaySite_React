@@ -1,53 +1,25 @@
-import React, { useState } from 'react';
-import './App.css';
-import Section from './components/section.js'
-import Nav from './components/nav.js'
-import { sectionsData } from './components/data';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
+import React, { Component } from 'react';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import Home from './components/home';
+import Policy from './components/policy'
+import Contact from './components/contact';
 
-function App() {
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
-
-  const filteredSections = sectionsData.filter((section) => {
-    return section.title.toLowerCase().includes(searchQuery.toLowerCase());
-  });
-
-  return (
-    <div className="App">
-      <Nav/>
-      <header></header>
-      <div className="search-bar">
-        <div className='search-input-container'>
-        <input
-          type="text"
-          placeholder="Search Show Titles"
-          value={searchQuery}
-          onChange={handleSearchChange}
-          style={{ paddingLeft: '25px' }}
-        />
-        <FontAwesomeIcon icon={faSearch} className='search-icon' style={{ color: "#ffffff" }} />
-        </div>
-      </div>
-
-      {filteredSections.map((section, index) => (
-        <Section
-          key={index}
-          title={section.title}
-          imageUrl={section.imageUrl}
-          location={<span className='address-link'><a href={section.location} >{section.address}</a></span>}
-          website={section.website}
-          code={section.code}
-        />
-      ))}
-    </div>
-
-  );
+  
+class App extends Component {
+  render() {
+    return (
+       <Router>
+           <div>
+           <Routes>
+                 <Route exact path='/' element={< Home />}></Route>
+                 <Route exact path='/policy' element={< Policy />}></Route>
+                 <Route exact path='/contact' element={< Contact />}></Route>
+          </Routes>
+          </div>
+       </Router>
+   );
+  }
 }
 
 export default App;
