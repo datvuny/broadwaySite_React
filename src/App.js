@@ -15,6 +15,7 @@ class App extends Component {
                  <Route exact path='/' element={< Home />}></Route>
                  <Route exact path='/policy' element={< Policy />}></Route>
                  <Route exact path='/contact' element={< Contact />}></Route>
+                 <Route path='*' element={< Home />}></Route>
           </Routes>
           </div>
        </Router>
