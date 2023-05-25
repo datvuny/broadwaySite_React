@@ -34,12 +34,12 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/broadwaySite_React/policy" className="nav-link">
+                <a href="/policy" className="nav-link">
                   Privacy Policy
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/broadwaySite_React/contact" className="nav-link">
+                <a href="https://www.broadwayintheknow.com/contact" className="nav-link">
                   Contact
                 </a>
               </li>
