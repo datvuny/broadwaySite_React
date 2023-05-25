@@ -45,7 +45,7 @@ export const sectionsData = [
       address:'MINSKOFF Theater\n200 W 45th St\nNY, NY 12345',
       location: 'https://www.google.com/maps/place/The+Lion+King/@40.7580227,-73.986025,15z/data=!4m2!3m1!1s0x0:0xea81775ec7e6560b?sa=X&ved=2ahUKEwjqmrHH-Y7_AhXtK1kFHVxhB4IQ_BJ6BAhqEAg',
       website: 'https://www.lionking.com',
-      code: 'LION'
+      code: ''
     },
     {
       title: 'Shucked',
@@ -88,28 +88,28 @@ export const sectionsData = [
       code: 'ABNMANIA'
     },
     {
-      title: '',
-      imageUrl: '/images/',
-      address:'MARQUIS THEATRE\n210 W 46th St\nNY, NY 10036',
-      location: '',
-      website: '',
-      code: ''
+      title: 'MJ The Musical',
+      imageUrl: '/images/mj.png',
+      address:'NEIL SIMON THEATRE\n250 W 52ND St\nNY, NY 10019',
+      location: 'https://www.google.com/maps/place/Neil+Simon+Theatre/@40.7631784,-73.9845388,15z/data=!4m2!3m1!1s0x0:0xaa5dbb82ce9f27cb?sa=X&ved=2ahUKEwiqw9_8so__AhWwEFkFHSsrCFoQ_BJ6BAh3EAg',
+      website: 'https://newyork.mjthemusical.com/',
+      code: 'MJFAN1'
     },
     {
-      title: '',
-      imageUrl: '/images/',
-      address:'MARQUIS THEATRE\n210 W 46th St\nNY, NY 10036',
-      location: '',
-      website: '',
-      code: ''
+      title: 'Parade',
+      imageUrl: '/images/parade.jpeg',
+      address:'BERNARD B. JACOBS THEATRE\n242 W 45th St\nNY, NY 10036',
+      location: 'https://www.google.com/maps/place/242+W+45th+St,+New+York,+NY+10036/@40.7586707,-73.987736,17z/data=!3m1!4b1!4m6!3m5!1s0x89c258546420db91:0xebbe22510b4b9442!8m2!3d40.7586707!4d-73.987736!16s%2Fg%2F11bw3_fj2c?entry=ttu',
+      website: 'https://paradebroadway.com/',
+      code: 'ATLANTA'
     },
     {
-      title: '',
-      imageUrl: '/images/',
-      address:'MARQUIS THEATRE\n210 W 46th St\nNY, NY 10036',
-      location: '',
-      website: '',
-      code: ''
+      title: 'Peter Pan Goes Wrong',
+      imageUrl: '/images/pete.png',
+      address:'BARRYMORE THEATRE\n243 W 47th St\nNY, NY 10036',
+      location: 'https://www.google.com/maps/place/243+W+47th+St,+New+York,+NY+10036/data=!4m2!3m1!1s0x89c258542eaa4ddd:0x409de220ff77dd9b?sa=X&ved=2ahUKEwi43sq3tY__AhW-KlkFHSdgCTYQ8gF6BAgNEAI',
+      website: 'https://pangoeswrongbway.com/',
+      code: 'PWBBX101'
     },
     {
       title: '',
