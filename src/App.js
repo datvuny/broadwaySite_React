@@ -13,8 +13,10 @@ class App extends Component {
            <div>
            <Routes>
                  <Route exact path='/' element={< Home />}></Route>
-                 <Route exact path='/policy' element={< Policy />}></Route>
-                 <Route exact path='/contact' element={< Contact />}></Route>
+                 <Route exact path='https://www.broadwayintheknow.com/policy' element={< Policy />}></Route>
+                 <Route exact path='https://www.broadwayintheknow.com/contact' element={< Contact />}></Route>
+                 <Route exact path='policy' element={< Policy />}></Route>
+                 <Route exact path='contact' element={< Contact />}></Route>
                  <Route path='*' element={< Home />}></Route>
           </Routes>
           </div>
