@@ -256,7 +256,7 @@ footer{
     height: 100%;
   }
   .v1_9 {
-    width: 426px;
+    width: 626px;
     color: rgb(163, 32, 32);
     position: absolute;
     top: 22px;
@@ -268,7 +268,7 @@ footer{
     text-align: left;
   }
   .v1_39 {
-    width: 198px;
+    width: 398px;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 69px;
@@ -325,12 +325,12 @@ footer{
     width: 90%;
     height: 70px;
     font-size: 35px;
-    /* line-height: 1; */
   }
   
   input[type="text"]::placeholder {
     color: #ffbb00;
   }
+
   input {
   color: #fff;
   font-family: Nunito;
@@ -338,10 +338,15 @@ footer{
   margin: 2px;
   border: 2px;
   background-color: transparent;
+  background-color: #000;
 }
 
 .search-input-container {
     position: relative;
+    background-image: url('./images/curtain2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
   
   .search-icon {

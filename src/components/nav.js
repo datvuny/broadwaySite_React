@@ -4,7 +4,7 @@ function Nav() {
     return (
       <nav className="navbar navbar-expand-lg sticky fixed-top r-nav">
         <div className="container">
-          <a href="#" className="navbar-brand">
+          <a href="./index.html" className="navbar-brand">
             BROADWAY IN THE KNOW
           </a>
           <button
@@ -26,10 +26,10 @@ function Nav() {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://github.com/datvuny"
+                  href="https://www.todaytix.com/nyc/category/all-shows"
                   className="nav-link"
                 >
-                  Github
+                  TodayTix
                 </a>
               </li>
               <li className="nav-item">
