@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 function Nav() {
     return (
       <nav className="navbar navbar-expand-lg sticky fixed-top r-nav">
         <div className="container">
-          <a href="./" className="navbar-brand">
+          <a href="/broadwaySite_React" className="navbar-brand">
             BROADWAY IN THE KNOW
           </a>
           <button
@@ -20,7 +21,7 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarId">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a href="./" className="nav-link">
+                <a href="/broadwaySite_React" className="nav-link">
                   Home
                 </a>
               </li>
@@ -33,12 +34,12 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="./policy" className="nav-link">
+                <a href="/broadwaySite_React/policy" className="nav-link">
                   Privacy Policy
                 </a>
               </li>
               <li className="nav-item">
-                <a href="./contact" className="nav-link">
+                <a href="/broadwaySite_React/contact" className="nav-link">
                   Contact
                 </a>
               </li>

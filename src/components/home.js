@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../App.css';
 import Section from './section'
-import Nav from './nav.js'
 import { sectionsData } from './data';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Nav from './nav';
 
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <div className="App">
-      <Nav/>
+      <Nav />
       <header></header>
       <div className="search-bar">
         <div className='search-input-container'>

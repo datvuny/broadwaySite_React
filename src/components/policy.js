@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './nav' 
+import Nav from './nav'
 
 function Policy (){
  return (
         <div>
-            <Nav/>
+            <Nav />
       <header></header>
             <section className='policy'>
             <h2 style={{textAlign:'center'}}>Privacy Policy for BroadwayInTheKnow</h2>

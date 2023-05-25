@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './nav'; 
+import Nav from './nav'
   
 function Contact (){
  return (
  <div>
-    <Nav/>
+    <Nav />
     <header></header>
  <section className="contact r-p bg-sec">
  <div className="container text-center">
@@ -42,7 +42,6 @@ function Contact (){
 </section>
 </div>
     )
-
 }
   
 export default Contact;
