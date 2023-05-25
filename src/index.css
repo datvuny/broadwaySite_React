@@ -357,3 +357,6 @@ footer{
     transform: translateY(-50%);
     pointer-events: none;
   }
+  .policy{
+    color: #e7e8e9;
+  }
