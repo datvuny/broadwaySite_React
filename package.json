@@ -1,5 +1,6 @@
 {
-  "name": "broadwaySite_React",
+  "name": "broadway",
+  "homepage": "https://datvuny.github.io/broadwaySite_React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://datvuny.github.io/broadwaySite_React",
+  
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
