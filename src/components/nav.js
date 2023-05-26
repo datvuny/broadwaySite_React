@@ -36,6 +36,22 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
+                <a
+                  href="https://www.luckyseat.com/"
+                  className="nav-link"
+                >
+                  Lucky Seat
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="https://rush.telecharge.com/"
+                  className="nav-link"
+                >
+                  Telecharge
+                </a>
+              </li>
+              <li className="nav-item">
               <Link className="nav-link" to="/policy" component={<Policy />}>Privacy Policy</Link> 
                 {/* <a href="https://www.broadwayintheknow.com/policy" className="nav-link">
                   Privacy Policy
