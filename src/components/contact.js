@@ -33,7 +33,8 @@ function Contact (){
                          <div className="form-group">
                              <textarea className="form-control" rows="7" placeholder="message" style={{ resize: 'none' }}></textarea>
                          </div>
-                         <button type="submit" className="btn r-btn float-right">Send</button>
+                         <button type="submit" className="btn r-btn float-right" onClick={(e) => {e.preventDefault();window.location.href='http://www.broadwayintheknow.com'}}>Send
+                         </button>
                  </form>
              </div>
          </div>
