@@ -58,10 +58,10 @@ function Nav() {
                 </a> */}
               </li>
               <li className="nav-item">
-              <Link className="nav-link" to="/contact" component={<Contact />}>Contact</Link> 
-                {/* <a href="https://www.broadwayintheknow.com/contact" className="nav-link">
+              {/* <Link className="nav-link" to="/contact" component={<Contact />}>Contact</Link>  */}
+                <a href="https://www.broadwayintheknow.com/contact" className="nav-link">
                   Contact
-                </a> */}
+                </a>
               </li>
             </ul>
           </div>
