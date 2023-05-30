@@ -6,7 +6,7 @@ import Policy from './policy'
 
 function Nav() {
     return (
-      <nav className="navbar navbar-expand-lg sticky fixed-top r-nav">
+      <nav className="navbar navbar-expand-lg navbar-light sticky fixed-top r-nav">
         <div className="container">
         <Link className="navbar-brand" to="/" component={<Home />}>BROADWAY IN THE KNOW</Link>  
           <button
