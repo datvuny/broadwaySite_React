@@ -8,7 +8,7 @@ function Nav() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light sticky fixed-top r-nav">
         <div className="container">
-        <Link className="navbar-brand" to="/" component={<Home />}>BROADWAY IN THE KNOW</Link>  
+        <Link className="navbar-brand" to={<Home />}>BROADWAY IN THE KNOW</Link>  
           <button
             className="navbar-toggler"
             type="button"
@@ -22,7 +22,7 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarId">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-              <Link className="nav-link" to="/" component={<Home />}>Home</Link> 
+              <Link className="nav-link" to={<Home />}>Home</Link> 
                 {/* <a href="https://www.broadwayintheknow.com/" className="nav-link">
                   Home
                 </a> */}
@@ -52,13 +52,13 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-              <Link className="nav-link" to="/policy" component={<Policy />}>Privacy Policy</Link> 
+              <Link className="nav-link" to={<Policy />}>Privacy Policy</Link> 
                 {/* <a href="https://www.broadwayintheknow.com/policy" className="nav-link">
                   Privacy Policy
                 </a> */}
               </li>
               <li className="nav-item">
-              <Link className="nav-link" to="/contact" component={<Contact />}>Contact</Link> 
+              <Link className="nav-link" to={<Contact />}>Contact</Link> 
                 {/* <a href="https://www.broadwayintheknow.com/contact" className="nav-link">
                   Contact
                 </a> */}
