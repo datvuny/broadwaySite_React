@@ -111,6 +111,14 @@ export const sectionsData = [
       website: 'https://pangoeswrongbway.com/',
       code: 'PWBBX101'
     },
+    {
+      title: 'Back to the Future',
+      imageUrl: '../images/future.jpeg',
+      address:'WINTER GARDEN THEATRE\n1634 Broadway\nNY, NY 10019',
+      location: 'https://www.google.com/maps/place/Winter+Garden+Theatre/@40.7617111,-73.983725,15z/data=!4m6!3m5!1s0x89c258546f7745cf:0xe2b8959fbca04b07!8m2!3d40.7617111!4d-73.983725!16zL20vMDM5aHls?entry=ttu',
+      website: 'https://backtothefuturemusical.com/',
+      code: 'DELOREAN'
+    },
     
     // {
     //   title: '',
